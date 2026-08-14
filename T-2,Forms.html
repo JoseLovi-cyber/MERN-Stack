@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Froms in HTML</h1>
+
+    <form action="">
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" minlength="5" maxlength="12" value="" name="FirstName" required>
+
+        <label for="mname">Middle Name</label>
+        <input id="mname" type="text" disabled>
+
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text">
+
+        <br><br>
+        <label for="age">Age</label>
+        <input id="age" type="number">
+
+        <br><br>
+        <label for="dd">Delivery Date</label>
+        <input id="dd" type="date">
+
+        <br><br>
+        <label for="em">Email ID</label>
+        <input id="em" type="email">
+
+        <br><br>
+        <h3>Select you shirt size:</h3>
+        <input type="radio" name="shirtSize" id="small" value="small"><label for="small">Small</label>
+        <input type="radio" name="shirtSize" id="medium" value="medium" checked><label for="medium">Medium</label>
+        <input type="radio" name="shirtSize" id="large" value="large"><label for="large">Large</label>
+
+        <h3>Select you prefered language:</h3>
+        <input type="checkbox" name="lang" id="hindi" value="Hindi"><label for="hindi">Hindi</label>
+        <input type="checkbox" name="lang" id="english" value="English" checked><label for="english">English</label>
+        <input type="checkbox" name="lang" id="tamil" value="Tamil" checked><label for="tamil">Tamil</label>
+        <input type="checkbox" name="lang" id="kannada" value="Kannada"><label for="kannada">Kannada</label>
+
+        <br><br>
+        <label for="color">Shirt Color</label>
+        <input type="color" value="" name="ShirtColor">
+
+
+        <br><br>
+        <label for="cmnts">Enter enter you valuable feedback:</label>
+        <br>
+        <textarea id="cmnts" rows="15" cols="100" placeholder="Please enter you valueable feedback"></textarea>
+        
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>

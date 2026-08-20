@@ -1,0 +1,18 @@
+.heroImg{
+    margin: 10% 25%;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    background: linear-gradient(to right, #ff9d00, #3cff00);
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
